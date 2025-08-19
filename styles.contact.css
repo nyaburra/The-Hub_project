@@ -28,7 +28,7 @@
 
 @media (max-width: 768px) {
   .skewed-header {
-    height: 300px;
+    height: 400px;
   }
 
   .skewed-header .nav-link {
