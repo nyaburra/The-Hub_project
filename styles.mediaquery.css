@@ -81,27 +81,7 @@
     object-fit: contain; 
   }
  
-  .navigation-wrapper {
-    flex-direction: column;
-    padding: 20px 15px;
-    height: auto;
-  }
-
-  .contact-hours-wrapper,
-  .adress-wrapper {
-    text-align: center;
-    margin: 10px 0;
-  }
-
-  .right-column {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .right-column .adress-wrapper a {
-    font-size: 0.8em;   
-    word-break: break-word; 
-  }
+ 
 }
 
 
