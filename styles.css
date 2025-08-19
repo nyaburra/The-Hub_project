@@ -121,10 +121,9 @@ font-size: 0.8em;
     background-color:goldenrod ;
     color: #11122b;
     padding: 7px 7px;
-    width: 320px;
-   font-size: 14px;
-  
-    border-radius: 50%
+    width: 310px;
+   font-size: 12px;
+  border-radius: 50%
 }
 .bottom-heading{
     background-color: white;
@@ -251,5 +250,6 @@ width: 400px;
     color: #858585;
 
 }
+
 
 
