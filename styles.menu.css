@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+  .skewed-header {
+    height: 300px;
+  }
+
+  .skewed-header .nav-link {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .skewed-header .nav-link a {
+    font-size: 16px;
+    width: auto;
+    margin: 8px 0;
+  }
+
+  .skewed-header .skewed-header-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
