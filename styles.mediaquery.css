@@ -80,4 +80,47 @@
     height: auto;       
     object-fit: contain; 
   }
+  /* Tablets */
+@media (max-width: 1024px) {
+  .navigation-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px; /* reduce padding */
+    height: auto;
+  }
+
+  .right-column .adress-wrapper {
+    text-align: center;
+    margin-top: 10px;
+  }
 }
+
+/* Phones */
+@media (max-width: 768px) {
+  .navigation-wrapper {
+    flex-direction: column;
+    padding: 20px 15px;
+    height: auto;
+  }
+
+  .contact-hours-wrapper,
+  .adress-wrapper {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .right-column {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right-column .adress-wrapper a {
+    font-size: 0.8em;   
+    word-break: break-word; 
+  }
+}
+
+
+}
+
