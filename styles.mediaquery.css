@@ -3,9 +3,16 @@
       flex-direction: column;
       height: 100%;
    }
- 
+   .background container{
+      flex-direction: column;
+      height: 100%;
+   }
+ .footer{
+     flex-direction: column;
+      height: 100%;
 }
 
+   }
 
 
 
