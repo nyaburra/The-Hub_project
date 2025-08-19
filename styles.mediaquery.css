@@ -73,4 +73,8 @@
   display: block;
 }
 
+  .menu-wrapper {
+    grid-template-columns: 1fr;
+  }
+
 }
