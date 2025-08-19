@@ -82,3 +82,30 @@ transform: translateY(1rem);
     display: flex;
     justify-content: center;
 }
+@media (max-width: 768px) {
+  .form {
+    padding: 0 15px; 
+  }
+
+  .form input,
+  .form textarea {
+    font-size: 1.1em;   
+    padding: 1rem 1.2rem;
+  }
+
+  .form label {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+
+  .btn {
+    width: 100%;  
+    font-size: 1.1em;
+    padding: 12px;
+  }
+
+  .centered-btn-wrapper {
+    flex-direction: column; 
+    align-items: stretch;   
+  }
+}
